@@ -1,0 +1,17 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.visited{
+    background-color: #669bbc;
+    color: black;
+}
+
+.img-container img{
+    width: 120px;
+    height: 65px;
+    border-radius: 12px;
+    margin: 8px;
+}
